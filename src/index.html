@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +11,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="styles/main.scss">
+    <!-- LIBS -->
+    <!-- AOS: ANIMAÇÃO -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
+
 <body>
     <header class="hero">
         <div class="container">
             <!-- <img src="./images/fundo.jpg" alt="fundo"> -->
             <p class="hero__text-title">A contagem regressiva para o meu aniversário está a todo vapor!</p>
-            <p class="hero__text">Faltam apenas [dias] dias [horas] h [min] min [seg] s para a festa mais esperada do ano</p>
+            <p id="msg" class="hero__text">Faltam apenas <span id="contador"></span> para a festa mais esperada do
+                ano</p>
             <div class="infos-bar">
                 <ul class="infos-bar__infos">
                     <li class="infos-bar__infos__item">
@@ -39,5 +45,9 @@
             </div>
         </div>
     </header>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
+
 </html>

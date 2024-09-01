@@ -36,4 +36,7 @@
         
         text-align: center;
     }
+    @media (max-width: 640px) {
+        padding-bottom: 128px;
+    }
 }
