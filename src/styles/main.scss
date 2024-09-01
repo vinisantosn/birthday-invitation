@@ -2,6 +2,8 @@
 @use "hero";
 @use "components/infos_bar";
 @use "components/buttons";
+@use "element";
+
 
 *{
     margin: 0;
@@ -10,6 +12,7 @@
     font-family: Roboto, sans-serif;
     color: variables.$primaryTextColor;
     list-style: none;
+    
 }
 
 .container{

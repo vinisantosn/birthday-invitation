@@ -2,7 +2,7 @@ AOS.init();
 
 const dataDoEvento = new Date("Feb 25, 2025 20:00:00");
 const timeStampDoEvento = dataDoEvento.getTime();
-console.log(timeStampDoEvento);
+// console.log(timeStampDoEvento);
 
 const contAsHoras = setInterval(function () {
   const agora = new Date();

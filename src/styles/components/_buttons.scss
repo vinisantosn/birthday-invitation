@@ -11,6 +11,13 @@
     color: variables.$primaryTextColor;
     background-color: variables.$btnColor;
   }
+  &--secondary {display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;    
+    color: variables.$primaryTextColor;
+    background-color: variables.$btnColor;
+  }
 
   @media (max-width: 640px) {
     display: block;
